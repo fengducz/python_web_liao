@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TEST</title>
+	<style type="text/css">
+	h4{
+		color: #765D34;
+	}
+
+	</style>
+</head>
+<body>
+	<h1>ALL Users</h1>
+	{% for u in users%}
+	<h4>{{u.name}}/{{u.email}}</h4>
+	{% endfor%}
+
+</body>
+</html>
